@@ -1,100 +1,194 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politica de Privacidad - Anunnaki Tales</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-            color: #333;
-            background-color: #fafafa;
-        }
-        h1 { color: #1a1a2e; border-bottom: 2px solid #c9a96e; padding-bottom: 10px; }
-        h2 { color: #1a1a2e; margin-top: 30px; }
-        .update-date { color: #666; font-style: italic; }
-        a { color: #c9a96e; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anunnaki Tales — Política de privacidad / Privacy policy</title>
+<meta name="description" content="Política de privacidad de Anunnaki Tales, juego narrativo de mitología mesopotámica. Privacy policy of Anunnaki Tales.">
+<style>
+  :root { --bg:#0d1020; --panel:#141a30; --text:#e8e4d8; --muted:#a9a6b8; --gold:#d4a843; --line:#2a3050; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:16px; margin-bottom:8px; }
+  .brand { font-family:Georgia, "Times New Roman", serif; color:var(--gold); font-size:22px; letter-spacing:.06em; text-transform:uppercase; }
+  nav a { color:var(--gold); margin-right:16px; font-size:14px; }
+  h1 { font-family:Georgia, "Times New Roman", serif; font-weight:normal; color:var(--gold); font-size:30px; margin:40px 0 4px; }
+  h2 { font-size:19px; margin:32px 0 8px; color:#f2e3b3; }
+  .meta { color:var(--muted); font-size:14px; }
+  .summary { background:var(--panel); border-left:3px solid var(--gold); padding:12px 16px; border-radius:4px; }
+  a { color:var(--gold); }
+  ul { padding-left:22px; }
+  li { margin:4px 0; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin:8px 0; }
+  th, td { text-align:left; vertical-align:top; padding:8px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; }
+  .sep { border:0; border-top:1px solid var(--line); margin:56px 0 0; }
+  @media (max-width:560px){ table, thead, tbody, tr, th, td { display:block; } thead { display:none; } td { border:0; padding:2px 0; } tr { border-bottom:1px solid var(--line); padding:8px 0; } }
+</style>
 </head>
 <body>
+<div class="wrap">
+<header>
+  <div class="brand">Anunnaki Tales</div>
+  <nav><a href="#es">Español</a><a href="#en">English</a><a href="delete_account.html">Eliminar cuenta / Delete account</a></nav>
+</header>
 
-<h1>Politica de Privacidad</h1>
-<p class="update-date">Ultima actualizacion: 16 de marzo de 2026</p>
+<!-- ============================ ESPAÑOL ============================ -->
+<section id="es" lang="es">
+<h1>Política de privacidad</h1>
+<p class="meta">Última actualización: 29 de septiembre de 2026 · Responsable: Federico Cavallo (Buenos Aires, Argentina) · Contacto: <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a></p>
 
-<p>Anunnaki Tales ("nosotros", "nuestro" o "la aplicacion") se compromete a proteger la privacidad de sus usuarios. Esta Politica de Privacidad explica como recopilamos, usamos, almacenamos y protegemos su informacion cuando utiliza nuestra aplicacion movil.</p>
+<p class="summary"><strong>En resumen.</strong> Anunnaki Tales es un juego narrativo en el que la inteligencia artificial escribe la historia según tus decisiones. Para jugar necesitás una cuenta; guardamos tu progreso para que puedas continuarlo. Enviamos tus decisiones de juego a un servicio de IA para generar el relato, mostramos anuncios de Google AdMob a quienes no son Premium y usamos RevenueCat para gestionar la suscripción. No vendemos tus datos.</p>
 
-<h2>1. Informacion que Recopilamos</h2>
+<h2>1. Quién es el responsable</h2>
+<p>Anunnaki Tales es una aplicación desarrollada y publicada por Federico Cavallo, persona individual con domicilio en Buenos Aires, Argentina. Para cualquier consulta sobre esta política o sobre tus datos, escribí a <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a>.</p>
 
-<p><strong>1.1 Informacion de la cuenta:</strong> Cuando crea una cuenta, recopilamos su direccion de correo electronico y un identificador unico de usuario a traves de nuestro servicio de autenticacion (Supabase Auth).</p>
+<h2>2. Qué datos tratamos y para qué</h2>
+<table>
+<thead><tr><th>Datos</th><th>Para qué</th><th>Quién los procesa</th></tr></thead>
+<tbody>
+<tr><td><strong>Cuenta:</strong> correo electrónico, identificador de usuario, nombre visible y, si entrás con Google o Apple, los datos básicos que ese proveedor comparte (correo y nombre). La contraseña se guarda cifrada (hash); nunca la vemos.</td><td>Crear tu cuenta, iniciar sesión y asociar tu progreso y tu suscripción.</td><td>Supabase (autenticación y base de datos)</td></tr>
+<tr><td><strong>Progreso de juego:</strong> aventuras iniciadas y completadas, personaje elegido, decisiones tomadas, estado de la partida, turnos jugados, racha de días y decisiones diarias restantes.</td><td>Guardar y continuar tus partidas, aplicar los límites del plan gratuito.</td><td>Supabase</td></tr>
+<tr><td><strong>Contenido enviado a la IA:</strong> el mito elegido, el personaje, el idioma, tus decisiones, el estado de la partida y, si lo ingresás, tu nombre de jugador.</td><td>Generar cada fragmento de la historia.</td><td>Anthropic (modelo Claude), a través de nuestro servidor</td></tr>
+<tr><td><strong>Compras:</strong> estado de la suscripción, identificador de la compra, fechas de alta y renovación, y un identificador de usuario de la app.</td><td>Activar Premium, restaurar compras y sincronizarlas entre dispositivos.</td><td>RevenueCat, Google Play y App Store</td></tr>
+<tr><td><strong>Publicidad:</strong> identificador de publicidad del dispositivo, información del dispositivo y de la app, dirección IP (de la que puede derivarse una ubicación aproximada) e interacción con los anuncios.</td><td>Mostrar y medir anuncios a usuarios del plan gratuito.</td><td>Google AdMob</td></tr>
+<tr><td><strong>Datos técnicos:</strong> tipo de dispositivo, versión del sistema y de la app, registros de error.</td><td>Compatibilidad, seguridad y corrección de fallos.</td><td>Los proveedores anteriores, según corresponda</td></tr>
+</tbody>
+</table>
+<p>No accedemos a tu ubicación precisa, contactos, cámara, micrófono, fotos ni archivos. No usamos herramientas de analítica de terceros aparte de las que incluyen los servicios mencionados.</p>
 
-<p><strong>1.2 Datos de uso del juego:</strong> Recopilamos informacion sobre su actividad dentro de la aplicacion, incluyendo: sesiones de juego, elecciones narrativas realizadas, progreso en aventuras, logros desbloqueados y datos curiosos descubiertos.</p>
+<h2>3. Inteligencia artificial</h2>
+<p>La narrativa se genera con Claude, un modelo de Anthropic PBC. Tus decisiones viajan desde la app a nuestro servidor (una función en Supabase) y de ahí a la API de Anthropic; no enviamos tu correo ni tu contraseña. No escribas datos personales sensibles en ningún campo de texto del juego. Anthropic trata estos datos según sus condiciones comerciales y su <a href="https://www.anthropic.com/legal/privacy">política de privacidad</a>. El contenido generado puede ser inexacto: los datos históricos del juego son de divulgación y no reemplazan una fuente académica.</p>
 
-<p><strong>1.3 Informacion de compras:</strong> Si realiza compras dentro de la aplicacion, procesamos la transaccion a traves de las plataformas de Apple (App Store) o Google (Google Play). No almacenamos informacion de tarjetas de credito ni datos financieros directamente. Las compras son gestionadas por RevenueCat como intermediario de suscripciones.</p>
+<h2>4. Anuncios (Google AdMob)</h2>
+<p>Si usás el plan gratuito, la app muestra anuncios de <strong>Google AdMob</strong> (Google LLC): un banner y anuncios intersticiales entre capítulos. Los suscriptores Premium no ven anuncios.</p>
+<ul>
+<li><strong>Consentimiento.</strong> Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, se te pide consentimiento antes de mostrar anuncios personalizados (Google User Messaging Platform). En iOS, la app pide además el permiso de seguimiento de Apple (App Tracking Transparency).</li>
+<li><strong>Anuncios no personalizados.</strong> Si no das tu consentimiento o desactivás la personalización desde tu teléfono (Android: Configuración → Google → Anuncios; iOS: Configuración → Privacidad → Rastreo), verás anuncios no personalizados.</li>
+<li>No mostramos anuncios dirigidos a menores de edad.</li>
+</ul>
+<p>Más información: <a href="https://policies.google.com/technologies/ads">Cómo usa Google la información de las apps que usan sus servicios</a> y <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
 
-<p><strong>1.4 Informacion del dispositivo:</strong> Podemos recopilar informacion basica del dispositivo como el tipo de dispositivo, sistema operativo y version de la aplicacion con fines de compatibilidad y mejora del servicio.</p>
+<h2>5. Suscripción Premium</h2>
+<p>La suscripción (mensual o anual) se cobra íntegramente a través de Google Play o del App Store. No recibimos ni almacenamos datos de tarjetas. <strong>RevenueCat, Inc.</strong> recibe de la tienda la confirmación de la compra y el identificador de usuario de la app para saber si tenés Premium activo. Podés cancelar la suscripción desde la tienda en cualquier momento. Más información: <a href="https://www.revenuecat.com/privacy">política de privacidad de RevenueCat</a>.</p>
 
-<h2>2. Como Usamos su Informacion</h2>
+<h2>6. Con quién compartimos datos</h2>
+<p>No vendemos tus datos ni los cedemos para marketing de terceros. Solo los compartimos con los proveedores que hacen funcionar la app, y únicamente lo necesario:</p>
+<ul>
+<li><strong>Supabase, Inc.</strong> — autenticación, base de datos y servidor de la app (<a href="https://supabase.com/privacy">privacidad</a>).</li>
+<li><strong>Anthropic PBC</strong> — generación de la narrativa con IA.</li>
+<li><strong>Google LLC</strong> — publicidad (AdMob), inicio de sesión con Google y cobro en Google Play.</li>
+<li><strong>Apple Inc.</strong> — inicio de sesión con Apple y cobro en el App Store.</li>
+<li><strong>RevenueCat, Inc.</strong> — gestión de suscripciones.</li>
+</ul>
+<p>También podemos divulgar datos si una ley o una orden judicial válida lo exige.</p>
 
-<p>Utilizamos la informacion recopilada para:</p>
-<p>- Proporcionar y mantener el servicio de juego interactivo.<br>
-- Guardar su progreso y sesiones de juego.<br>
-- Gestionar su cuenta y preferencias.<br>
-- Procesar compras y suscripciones premium.<br>
-- Mejorar la experiencia del usuario y el contenido del juego.<br>
-- Enviar notificaciones relacionadas con el servicio (si las autoriza).<br>
-- Cumplir con obligaciones legales.</p>
+<h2>7. Transferencias internacionales</h2>
+<p>Estos proveedores pueden procesar datos en Estados Unidos u otros países distintos del tuyo. Trabajamos con proveedores que aplican medidas de protección adecuadas (como cláusulas contractuales tipo) para esas transferencias.</p>
 
-<h2>3. Almacenamiento y Seguridad de Datos</h2>
+<h2>8. Conservación</h2>
+<ul>
+<li>Datos de cuenta y progreso: mientras tu cuenta exista. Al eliminarla, se borran en un plazo máximo de 30 días.</li>
+<li>Registros de compras: el tiempo que exijan las tiendas y las normas fiscales aplicables.</li>
+<li>Datos de publicidad: según los plazos de Google.</li>
+<li>Contenido enviado a la IA: no lo guardamos aparte del estado de tu partida; Anthropic lo conserva según sus propios plazos.</li>
+</ul>
 
-<p>Sus datos se almacenan de forma segura en servidores proporcionados por Supabase, que utiliza cifrado en transito (TLS/SSL) y en reposo. Implementamos medidas de seguridad razonables para proteger su informacion personal contra acceso no autorizado, alteracion o destruccion.</p>
+<h2>9. Eliminar tu cuenta</h2>
+<p>Podés pedir la eliminación de tu cuenta y de todos los datos asociados escribiendo a <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a> desde el correo de tu cuenta, con el asunto "Eliminar cuenta Anunnaki Tales". Los pasos están en <a href="delete_account.html">esta página</a>. Eliminar la cuenta no cancela una suscripción activa: cancelala antes desde Google Play o el App Store.</p>
 
-<h2>4. Comparticion de Datos con Terceros</h2>
+<h2>10. Menores</h2>
+<p>Anunnaki Tales está dirigida a personas de 13 años o más y no está pensada para menores de 13. No recopilamos a sabiendas datos de menores de 13 años. Si sos padre, madre o tutor y creés que un menor nos dio datos, escribinos y los eliminaremos.</p>
 
-<p>No vendemos, comercializamos ni transferimos su informacion personal a terceros, excepto en los siguientes casos:</p>
-<p>- <strong>Proveedores de servicio:</strong> Compartimos datos con proveedores que nos ayudan a operar la aplicacion (Supabase para base de datos y autenticacion, Anthropic para generacion de contenido narrativo con IA, RevenueCat para gestion de suscripciones).<br>
-- <strong>Plataformas de distribucion:</strong> Apple y Google como parte del proceso de distribucion y compras in-app.<br>
-- <strong>Requisitos legales:</strong> Cuando sea necesario para cumplir con la ley, una orden judicial o un proceso legal.</p>
+<h2>11. Seguridad</h2>
+<p>Los datos viajan cifrados (HTTPS/TLS) y se almacenan en la infraestructura de Supabase, con acceso restringido a cada usuario autenticado. Ningún sistema es completamente infalible; si detectamos un incidente que afecte tus datos, te avisaremos según lo exija la ley.</p>
 
-<h2>5. Uso de Inteligencia Artificial</h2>
+<h2>12. Tus derechos</h2>
+<p>Podés pedir acceso, rectificación, eliminación, portabilidad u oposición al tratamiento de tus datos, y retirar tu consentimiento para anuncios personalizados. Respondemos en un plazo de 30 días. Según tu país, también podés reclamar ante la autoridad de protección de datos que corresponda (en Argentina, la Agencia de Acceso a la Información Pública, de acuerdo con la Ley 25.326; en la Unión Europea, tu autoridad local según el RGPD). Si residís en California, tenés los derechos que otorga la CCPA/CPRA; el uso de identificadores publicitarios por AdMob puede considerarse "compartir" a los fines de esa ley, y podés oponerte desactivando la personalización de anuncios en tu dispositivo.</p>
 
-<p>Anunnaki Tales utiliza tecnologia de inteligencia artificial (proporcionada por Anthropic) para generar contenido narrativo personalizado basado en sus elecciones de juego. Las elecciones que realiza durante el juego se envian a este servicio para generar la narrativa. No se envia informacion personal identificable al servicio de IA; solo se transmiten los datos necesarios para la generacion de la historia (identificador de mito, personaje seleccionado, elecciones realizadas).</p>
+<h2>13. Cambios en esta política</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es relevante, lo avisaremos dentro de la app. La versión vigente está siempre en esta dirección.</p>
+</section>
 
-<h2>6. Privacidad de Menores</h2>
+<hr class="sep">
 
-<p>Anunnaki Tales esta clasificada para todas las edades. No recopilamos intencionalmente informacion personal de menores de 13 anos sin el consentimiento verificable de un padre o tutor. Si descubrimos que hemos recopilado informacion de un menor de 13 anos sin consentimiento parental, tomaremos medidas para eliminar dicha informacion lo antes posible. Si usted es padre o tutor y cree que su hijo nos ha proporcionado informacion personal, contactenos.</p>
+<!-- ============================ ENGLISH ============================ -->
+<section id="en" lang="en">
+<h1>Privacy policy</h1>
+<p class="meta">Last updated: September 29, 2026 · Controller: Federico Cavallo (Buenos Aires, Argentina) · Contact: <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a></p>
 
-<h2>7. Sus Derechos</h2>
+<p class="summary"><strong>In short.</strong> Anunnaki Tales is a narrative game in which artificial intelligence writes the story based on your choices. You need an account to play; we store your progress so you can continue it. We send your in-game choices to an AI service to generate the story, show Google AdMob ads to non-Premium players, and use RevenueCat to manage subscriptions. We do not sell your data.</p>
 
-<p>Usted tiene derecho a:</p>
-<p>- Acceder a sus datos personales.<br>
-- Solicitar la correccion de datos inexactos.<br>
-- Solicitar la eliminacion de su cuenta y datos asociados.<br>
-- Retirar su consentimiento en cualquier momento.<br>
-- Solicitar la portabilidad de sus datos.</p>
+<h2>1. Who is responsible</h2>
+<p>Anunnaki Tales is developed and published by Federico Cavallo, an individual based in Buenos Aires, Argentina. For any question about this policy or your data, write to <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a>.</p>
 
-<p>Para ejercer cualquiera de estos derechos, contactenos a: <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a></p>
+<h2>2. What data we process and why</h2>
+<table>
+<thead><tr><th>Data</th><th>Purpose</th><th>Processed by</th></tr></thead>
+<tbody>
+<tr><td><strong>Account:</strong> email address, user ID, display name and, if you sign in with Google or Apple, the basic data that provider shares (email and name). Your password is stored hashed; we never see it.</td><td>Creating your account, signing you in, and linking your progress and subscription.</td><td>Supabase (authentication and database)</td></tr>
+<tr><td><strong>Game progress:</strong> adventures started and completed, chosen character, choices made, game state, turns played, day streak and remaining daily choices.</td><td>Saving and resuming your games and applying free-plan limits.</td><td>Supabase</td></tr>
+<tr><td><strong>Content sent to the AI:</strong> the chosen myth, character, language, your choices, the game state and, if you enter one, your player name.</td><td>Generating each part of the story.</td><td>Anthropic (Claude model), through our server</td></tr>
+<tr><td><strong>Purchases:</strong> subscription status, purchase identifier, start and renewal dates, and an app user ID.</td><td>Unlocking Premium, restoring purchases and syncing them across devices.</td><td>RevenueCat, Google Play and the App Store</td></tr>
+<tr><td><strong>Advertising:</strong> device advertising ID, device and app information, IP address (from which an approximate location may be derived) and ad interactions.</td><td>Serving and measuring ads to free-plan users.</td><td>Google AdMob</td></tr>
+<tr><td><strong>Technical data:</strong> device type, OS and app version, error logs.</td><td>Compatibility, security and bug fixing.</td><td>The providers above, as applicable</td></tr>
+</tbody>
+</table>
+<p>We do not access your precise location, contacts, camera, microphone, photos or files. We do not use third-party analytics tools beyond what the services above include.</p>
 
-<h2>8. Retencion de Datos</h2>
+<h2>3. Artificial intelligence</h2>
+<p>The story is generated with Claude, a model by Anthropic PBC. Your choices travel from the app to our server (a Supabase function) and from there to Anthropic's API; we do not send your email or password. Do not type sensitive personal information into any text field in the game. Anthropic handles this data under its commercial terms and its <a href="https://www.anthropic.com/legal/privacy">privacy policy</a>. Generated content may be inaccurate: the historical facts in the game are for general interest and are not a substitute for academic sources.</p>
 
-<p>Conservamos sus datos personales mientras mantenga una cuenta activa en la aplicacion. Si solicita la eliminacion de su cuenta, eliminaremos sus datos personales dentro de un plazo de 30 dias, salvo que estemos obligados por ley a conservarlos por un periodo mas largo.</p>
+<h2>4. Ads (Google AdMob)</h2>
+<p>On the free plan, the app shows ads from <strong>Google AdMob</strong> (Google LLC): a banner and interstitial ads between chapters. Premium subscribers see no ads.</p>
+<ul>
+<li><strong>Consent.</strong> If you are in the European Economic Area, the United Kingdom or Switzerland, you are asked for consent before personalized ads are shown (Google User Messaging Platform). On iOS, the app also asks for Apple's tracking permission (App Tracking Transparency).</li>
+<li><strong>Non-personalized ads.</strong> If you do not consent or turn off ad personalization on your phone (Android: Settings → Google → Ads; iOS: Settings → Privacy → Tracking), you will see non-personalized ads.</li>
+<li>We do not serve ads targeted at minors.</li>
+</ul>
+<p>More information: <a href="https://policies.google.com/technologies/ads">How Google uses information from apps that use its services</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>9. Publicidad</h2>
+<h2>5. Premium subscription</h2>
+<p>The subscription (monthly or yearly) is billed entirely through Google Play or the App Store. We never receive or store card details. <strong>RevenueCat, Inc.</strong> receives the purchase confirmation from the store and the app user ID so it can tell whether Premium is active. You can cancel at any time from the store. More information: <a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>.</p>
 
-<p>La aplicacion puede mostrar anuncios a traves de Google AdMob. Los anuncios pueden utilizar identificadores de publicidad del dispositivo. Puede optar por no recibir publicidad personalizada a traves de la configuracion de su dispositivo. No mostramos publicidad dirigida a menores de edad.</p>
+<h2>6. Who we share data with</h2>
+<p>We do not sell your data or share it for third-party marketing. We only share what is necessary with the providers that run the app:</p>
+<ul>
+<li><strong>Supabase, Inc.</strong> — authentication, database and app server (<a href="https://supabase.com/privacy">privacy</a>).</li>
+<li><strong>Anthropic PBC</strong> — AI story generation.</li>
+<li><strong>Google LLC</strong> — ads (AdMob), Google sign-in and Google Play billing.</li>
+<li><strong>Apple Inc.</strong> — Sign in with Apple and App Store billing.</li>
+<li><strong>RevenueCat, Inc.</strong> — subscription management.</li>
+</ul>
+<p>We may also disclose data when required by law or a valid court order.</p>
 
-<h2>10. Cambios a esta Politica</h2>
+<h2>7. International transfers</h2>
+<p>These providers may process data in the United States or other countries outside your own. We work with providers that apply appropriate safeguards (such as standard contractual clauses) to those transfers.</p>
 
-<p>Podemos actualizar esta Politica de Privacidad periodicamente. Le notificaremos sobre cambios significativos a traves de la aplicacion o por correo electronico. Le recomendamos revisar esta politica regularmente.</p>
+<h2>8. Retention</h2>
+<ul>
+<li>Account and progress data: for as long as your account exists. When you delete it, it is erased within 30 days at most.</li>
+<li>Purchase records: as long as required by the stores and applicable tax rules.</li>
+<li>Advertising data: according to Google's retention periods.</li>
+<li>Content sent to the AI: we do not keep it beyond your game state; Anthropic retains it according to its own periods.</li>
+</ul>
 
-<h2>11. Contacto</h2>
+<h2>9. Deleting your account</h2>
+<p>You can request deletion of your account and all associated data by emailing <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a> from your account's email address with the subject "Delete Anunnaki Tales account". The steps are on <a href="delete_account.html">this page</a>. Deleting your account does not cancel an active subscription: cancel it first from Google Play or the App Store.</p>
 
-<p>Si tiene preguntas o inquietudes sobre esta Politica de Privacidad, puede contactarnos en:</p>
-<p><strong>Anunnaki Tales</strong><br>
-Correo electronico: <a href="mailto:fejcavallo@gmail.com">fejcavallo@gmail.com</a></p>
+<h2>10. Children</h2>
+<p>Anunnaki Tales is intended for people aged 13 and over and is not directed at children under 13. We do not knowingly collect data from children under 13. If you are a parent or guardian and believe a child has given us data, contact us and we will delete it.</p>
 
+<h2>11. Security</h2>
+<p>Data is encrypted in transit (HTTPS/TLS) and stored on Supabase infrastructure, with access restricted to each authenticated user. No system is completely foolproof; if we detect an incident affecting your data, we will notify you as required by law.</p>
+
+<h2>12. Your rights</h2>
+<p>You can request access, rectification, deletion or portability of your data, object to its processing, and withdraw consent for personalized ads. We reply within 30 days. Depending on your country, you may also complain to your data protection authority (in Argentina, the Agencia de Acceso a la Información Pública under Law 25,326; in the European Union, your local authority under the GDPR). If you live in California, you have the rights granted by the CCPA/CPRA; AdMob's use of advertising identifiers may count as "sharing" under that law, and you can opt out by turning off ad personalization on your device.</p>
+
+<h2>13. Changes to this policy</h2>
+<p>If we change this policy, we will update the date above and, if the change is significant, let you know inside the app. The current version is always at this address.</p>
+</section>
+</div>
 </body>
 </html>
